@@ -14,7 +14,7 @@
                     const item = document.createElement('div');
                     item.classList.add('ambiente');
         
-                    item.innerHTML = `<a href="/assets/ambientes-page/ambiente.html?id=${ambiente.id}" style="text-decoration:none; color:inherit;">${ambiente.nome}</a>`;
+                    item.innerHTML = `<a href="../ambientes-page/ambiente.html?id=${ambiente.id}" style="text-decoration:none; color:inherit;">${ambiente.nome}</a>`;
         
                     listaAmbientes.appendChild(item);
                 });
