@@ -1,0 +1,62 @@
+{
+  "ambientes": [
+    {
+      "id": 1,
+      "nome": "Geladeira",
+      "tipo": 1,
+      "itens": [
+        { "alimentoId": 1, "quantidade": 3, "vencimento": "2025-06-10", "cadastro": "2025-05-30" },
+        { "alimentoId": 2, "quantidade": 5, "vencimento": "2025-06-01", "cadastro": "2025-05-30" },
+        { "alimentoId": 3, "quantidade": 2, "vencimento": "2025-06-05", "cadastro": "2025-05-30" },
+        { "alimentoId": 4, "quantidade": 1, "vencimento": "2025-06-12", "cadastro": "2025-05-30" },
+        { "alimentoId": 5, "quantidade": 4, "vencimento": "2025-06-15", "cadastro": "2025-05-30" }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Despensa",
+      "tipo": 2,
+      "itens": [
+        { "alimentoId": 6, "quantidade": 2, "vencimento": "2025-12-01", "cadastro": "2025-05-30" },
+        { "alimentoId": 7, "quantidade": 6, "vencimento": "2026-01-10", "cadastro": "2025-05-30" },
+        { "alimentoId": 8, "quantidade": 1, "vencimento": "2025-11-15", "cadastro": "2025-05-30" },
+        { "alimentoId": 9, "quantidade": 7, "vencimento": "2025-10-20", "cadastro": "2025-05-30" },
+        { "alimentoId": 10, "quantidade": 3, "vencimento": "2026-02-05", "cadastro": "2025-05-30" }
+      ]
+    }
+  ],
+  "alimentos": [
+    { "id": 1, "nome": "Leite", "tipo": "Integral", "imagem": "leite.png", "categoria": 9 },
+    { "id": 2, "nome": "Iogurte", "tipo": "Natural", "imagem": "iogurte.png", "categoria": 9 },
+    { "id": 3, "nome": "Queijo", "tipo": "Minas", "imagem": "queijo.png", "categoria": 9 },
+    { "id": 4, "nome": "Presunto", "tipo": "Cozido", "imagem": "presunto.png", "categoria": 5 },
+    { "id": 5, "nome": "Manteiga", "tipo": "Com sal", "imagem": "manteiga.png", "categoria": 9 },
+    { "id": 6, "nome": "Arroz", "tipo": "Agulhinha", "imagem": "arroz.png", "categoria": 10 },
+    { "id": 7, "nome": "Feijão", "tipo": "Carioca", "imagem": "feijao.png", "categoria": 10 },
+    { "id": 8, "nome": "Macarrão", "tipo": "Espaguete", "imagem": "macarrao.png", "categoria": 0 },
+    { "id": 9, "nome": "Farinha", "tipo": "Trigo", "imagem": "farinha.png", "categoria": 10 },
+    { "id": 10, "nome": "Óleo", "tipo": "Soja", "imagem": "oleo.png", "categoria": 0 }
+  ],
+
+    "categoriaAlimento": [
+        { "id": 0, "categoria": "Outros" },
+        { "id": 1, "categoria": "Fruta" },
+        { "id": 2, "categoria": "Legume" },
+        { "id": 3, "categoria": "Vegetal" },
+        { "id": 4, "categoria": "Carne Bovina" },
+        { "id": 5, "categoria": "Carne Suína" },
+        { "id": 6, "categoria": "Aves" },
+        { "id": 7, "categoria": "Peixes e Frutos do Mar" },
+        { "id": 8, "categoria": "Soja e Derivados" },
+        { "id": 9, "categoria": "Laticínio" },
+        { "id": 10, "categoria": "Grãos e Cereais" }
+      ],
+
+ "tipoAmbiente": [
+        { "id": 0, "tipo": "Outros", "icone": "fa-solid fa-box-archive" },
+        { "id": 1, "tipo": "Refrigeração", "icone": "fa-solid fa-temperature-low" },
+        { "id": 2, "tipo": "Seco", "icone": "fa-solid fa-warehouse" },
+        { "id": 3, "tipo": "Congelador", "icone": "fa-regular fa-snowflake" }
+    ]
+  }
+  
