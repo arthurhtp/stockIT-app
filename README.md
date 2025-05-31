@@ -3,7 +3,7 @@
 Sistema de **controle de estoque doméstico e organizador de alimentos**, com interface intuitiva para ambientes como geladeira e despensa. Ideal para evitar desperdício e acompanhar prazos de validade.
 
 # 📸 Preview
-![alt text](assets/imgs/preview.png)
+![alt text](src/imgs/preview.png)
 
 ## 🧩 Funcionalidades
 
