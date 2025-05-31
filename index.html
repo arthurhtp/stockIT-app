@@ -7,7 +7,7 @@
     <meta name="author" content="Arthur Henrique Tristão Pinto">
     <meta name="copyright" content="© 2025 Arthur Tristão">
     <!--Icone da página -->
-    <link rel="icon" href="assets/icons/logo_stockit.ico" type="image/x-icon">
+    <link rel="icon" href="src/icons/logo_stockit.ico" type="image/x-icon">
     <!--Icons Link-->
     <script src="https://kit.fontawesome.com/f8292b8a4a.js" crossorigin="anonymous"></script>
     <title>Servidor iniciando...</title>
@@ -77,7 +77,7 @@
             const response = await fetch(apiURL)
             if(response.ok){
                 console.log("Servidor Acordado")
-                window.location.href = 'assets/lista-page/lista.html'
+                window.location.href = 'src/lista-page/lista.html'
             }
         }catch(error){
             console.log('Servidor ainda dormindo')
